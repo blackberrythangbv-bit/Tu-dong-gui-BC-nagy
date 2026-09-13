@@ -15,3 +15,11 @@ Luồng PA A:
 - Cần URL tải trực tiếp file ZIP. Link phải trả về bytes ZIP, không phải trang HTML đăng nhập.
 - Nếu biết package name chính thức của Tammi, có thể thêm `intent.setPackage("...")` trong MainActivity để mở thẳng Tammi.
 - File lưu trong external app-specific storage nên không cần quyền READ/WRITE_EXTERNAL_STORAGE.
+
+## Build APK trên GitHub Actions
+Source đã có workflow `.github/workflows/build-apk.yml`.
+
+- Push lên `main` hoặc `master` sẽ tự build `assembleDebug`.
+- Có thể chạy thủ công tại **Actions → Build KPI Tammi APK → Run workflow**.
+- APK nằm trong **Artifacts → KPI-Tammi-AutoShare-V1-APK**.
+- Workflow tự cài **JDK 17 + Gradle 8.9**, không cần Gradle Wrapper trong repo.

@@ -1,0 +1,25 @@
+KPI TAMMI AUTO SHARE V1 - BUILD APK TREN GITHUB
+
+1. Mo repo GitHub anh muon dung.
+2. Upload TOAN BO noi dung trong thu muc nay vao THU MUC GOC cua repo.
+   Quan trong: phai thay cac muc app/, .github/, build.gradle.kts, settings.gradle.kts ngay o root repo.
+3. Commit changes vao nhanh main hoac master.
+4. Mo tab Actions tren GitHub.
+5. Chon workflow "Build KPI Tammi APK".
+6. Neu push vua xong workflow se tu chay. Neu chua chay: Run workflow > Run workflow.
+7. Khi hien dau tich xanh: mo lan chay moi nhat > muc Artifacts.
+8. Tai "KPI-Tammi-AutoShare-V1-APK".
+9. Giai nen artifact, cai file KPI_Tammi_AutoShare_V1-debug.apk len Android.
+
+SAU KHI CAI:
+- Mo app KPI -> Tammi.
+- Nhap URL tai truc tiep file ZIP bao cao.
+- Mac dinh 07:30.
+- Bam LUU & BAT TU DONG.
+- Bam CHAY THU NGAY de test.
+- Khi thong bao "Bao cao KPI da san sang" xuat hien, bam GUI TAMMI.
+
+LUU Y:
+- Ban nay build DEBUG de test nhanh, chua phai ban release ky so.
+- URL phai tra ve file ZIP truc tiep; neu tra ve trang dang nhap/HTML app se bao loi.
+- Android WorkManager co the lech vai phut tuy che do tiet kiem pin cua may.
